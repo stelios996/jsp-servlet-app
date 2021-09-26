@@ -1,0 +1,102 @@
+body{
+	background-image: url(./images/WelcomePage.jpg);
+	background-repeat: no-repeat;
+	background-size: 1366px 662px;
+	margin: 0;
+}
+
+.header3{
+	background-color: #3F81A1;
+	height: 40px;
+	color: white;
+}
+
+#logo{
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 50px;
+	/*padding-top: 5px;*/
+	float: left;
+	width: 200px;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: #25536B;
+	text-decoration: underline;
+}
+
+a:visited{
+	color: white;
+}
+
+.navbar{
+	margin-left: 335px;
+	padding-top: 5px;
+}
+
+#separator{
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+#home{
+	float: left;
+	width: 45px;
+	font-size: 18px;
+}
+
+#network{
+	float: left;
+	width: 63px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#advertisements{
+	float: left;
+	width: 113px;
+	font-size: 18px;
+	margin-left: 0;
+	background-color: #25536B;
+}
+
+#chat{
+	float: left;
+	width: 35px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#notifications{
+	float: left;
+	width: 95px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#profile{
+	float: left;
+	width: 48px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#settings{
+	float: left;
+	width: 50px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#logout{
+	float: left;
+	width: 62px;
+	font-size: 18px;
+	margin-left: 0;
+}

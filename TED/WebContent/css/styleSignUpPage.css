@@ -1,0 +1,208 @@
+/*body{
+		background-image: url(./images/WelcomePage.jpg);
+		background-repeat: no-repeat;
+		background-size: 1366px 662px;
+}
+
+#header{
+		color: white;
+		font-weight: bold;
+		font-size: 25px;
+		padding-left: 100px;
+		padding-right: 100px;
+		background-color: #3F81A1;
+}
+
+#return{
+	margin-left:700px;
+}
+
+a{
+	color: white;
+}
+
+fieldset{
+		color: white;
+}
+
+legend{
+	text-align: center;
+}
+
+#content{
+	padding-top: 130px;
+	font-size: 25px;
+}
+
+form{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left:500px;
+}
+
+label{	
+	text-align: left;
+	width: 100px;
+}
+
+input{
+	margin-top: 8px;
+}
+
+#name{
+	margin-left: 134px;
+	padding: 5px;
+}
+
+#surname{
+	margin-left: 105px;
+	padding: 5px;
+}
+
+#email{
+	margin-left: 126px;
+	padding: 5px;
+}
+
+#password{
+	margin-left: 98px;
+	padding: 5px;
+}
+
+#validation{
+	margin-left: 10px;
+	padding: 5px;
+}
+
+#telephone{
+	margin-left: 2px;
+	padding: 5px;
+}
+
+#profilpic{
+	margin-left: 60px;
+}
+
+#signupButton{
+	margin-left: 207px;
+}*/
+
+body{
+		background-image: url(./images/WelcomePage.jpg);
+		background-repeat: no-repeat;
+		background-size: 1366px 662px;
+		color: white;
+		margin: 0;
+}
+
+.header2{
+	background-color: #3F81A1;
+	height: 70px;
+	padding-bottom: 10px;
+}
+
+#logo{
+	font-weight: bold;
+	font-size: 50px;
+	padding-left: 80px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: left;
+}
+
+#return{
+	font-size: 20px;
+	float:left;
+	margin-left: 850px;
+}
+
+a{
+	color: white;
+}
+
+.content{
+	padding-top: 180px;
+	font-size: 20px;
+}
+
+legend{
+	text-align: center;
+}
+
+#signup{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+form{
+	padding-left:500px;
+}
+
+#name{
+	margin-left: 111px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+#surname{
+	margin-left: 87px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+#email{
+	margin-left: 104px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+#password{
+	margin-left: 82px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+#validation{
+	margin-left: 11px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+#telephone{
+	margin-left: 5px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+#profilepic{
+	padding-top: 0px;
+	margin-left: 42px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+#signupButton{
+	padding-top: 0px;
+	margin-left: 170px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+.signupWarning{
+	color: red;
+	font-size: 15px;
+	margin-left: 170px;
+}

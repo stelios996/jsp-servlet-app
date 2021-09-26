@@ -1,0 +1,273 @@
+body{
+	background-image: url(./images/WelcomePage.jpg);
+	background-repeat: no-repeat;
+	background-size: 1366px 662px;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+.header3{
+	background-color: #3F81A1;
+	height: 40px;
+	width: 1366px;
+	color: white;
+	position: fixed;
+}
+
+#logo{
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 50px;
+	/*padding-top: 5px;*/
+	float: left;
+	width: 200px;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: #25536B;
+	text-decoration: underline;
+}
+
+a:visited{
+	color: white;
+}
+
+.navbar{
+	margin-left: 335px;
+	padding-top: 5px;
+}
+
+#separator{
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+#home{
+	float: left;
+	width: 45px;
+	font-size: 18px;
+}
+
+#network{
+	float: left;
+	width: 63px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#advertisements{
+	float: left;
+	width: 113px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#chat{
+	float: left;
+	width: 35px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#notifications{
+	float: left;
+	width: 95px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#profile{
+	float: left;
+	width: 48px;
+	font-size: 18px;
+	margin-left: 0;
+	background-color: #25536B;
+}
+
+#settings{
+	float: left;
+	width: 50px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#logout{
+	float: left;
+	width: 62px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+.leftInfo{
+	background-color: rgba(255,255,255,0.6);
+	margin: 20px;
+	width: 350px;
+	height: 400px;
+	position: fixed;
+	top: 50px;
+	border-radius: 10px;
+}
+
+.rightInfo{
+	text-align: center;
+	padding: 10px;
+	background-color: rgba(255,255,255,0.6);
+	margin: 20px;
+	width: 850px;
+	height: 550px;
+	position: absolute;
+	top: 50px;
+	left: 400px;
+	overflow: auto;
+	resize: none;
+	border-radius: 10px;
+}
+
+
+#editLink{
+	padding: 5px;
+	font-size: 20px;
+	position: fixed;
+	top: 500px;
+	left: 140px;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 10px;
+}
+
+#photo{
+	margin: 10px;
+	margin-left: 100px;
+	width: 150px;
+	height: 180px;
+	background-color: yellow;
+}
+
+#info{
+	margin: 5px;
+	padding: 3px;
+	width: 335px;
+	height: 180px;
+	background-color: white;
+	<!--background-color: rgba(255,255,255,0.8)-->;
+	border-radius: 10px;
+	font-size: 18px;
+}
+
+#name{
+	color: black;
+	border: 1px solid rgb(220,220,220);
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+}
+
+#surname, #age, #gender, #address, #telephone, #email{
+	color: black;
+	border: 1px solid rgb(220,220,220);
+	border-left-style: none;
+	border-right-style: none;
+}
+
+#employHistory, #education, #profqual, #computer, #other, #interests{
+	font-size: 25px;
+	text-align: center;
+	border: 1px solid black;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	margin-bottom: 10px;
+}
+
+#employHistory{
+	width: 230px;
+	margin-left: 310px;
+}
+
+#education{
+	width: 120px;
+	margin-left: 365px;
+}
+
+#profqual{
+	width: 300px;
+	margin-left: 275px;
+}
+
+#computer{
+	width: 180px;
+	margin-left: 335px;
+}
+
+#other{
+	width: 210px;
+	margin-left: 320px;
+}
+
+#interests{
+	width: 100px;
+	margin-left: 375px;
+}
+
+p{
+	text-align:center;
+}
+
+#addFriendButton{
+	background-color: #9ACD32;
+	border: 1px solid #9ACD32;
+	position: fixed;
+	top: 500px;
+	left: 140px;
+	font-size: 18px;
+	color: white;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#addFriendButton:hover{
+	background-color: #32CD32;
+	border-color: #32CD32;
+	text-decoration: none;
+}
+
+#addFriendButton:active{
+	background-color: #006400;
+	border-color: #006400;
+	text-decoration: none;	
+}
+
+#pending{
+	background-color: #C0C0C0;
+	border: 1px solid #C0C0C0;
+	position: fixed;
+	top: 500px;
+	left: 140px;
+	font-size: 18px;
+	color: white;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#friends{
+	background-color: #9ACD32;
+	border: 1px solid #9ACD32;
+	position: fixed;
+	top: 500px;
+	left: 140px;
+	font-size: 18px;
+	color: white;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	text-decoration: none;
+}

@@ -1,0 +1,500 @@
+body{
+	background-image: url(./images/WelcomePage.jpg);
+	background-repeat: no-repeat;
+	background-size: 1366px 662px;
+	background-attachment: fixed;
+	margin: 0;
+	overflow:auto;
+}
+
+.header3{
+	background-color: #3F81A1;
+	height: 40px;
+	color: white;
+}
+
+#logo{
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 50px;
+	/*padding-top: 5px;*/
+	float: left;
+	width: 200px;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: #25536B;
+	text-decoration: underline;
+}
+
+a:visited{
+	color: white;
+}
+
+.navbar{
+	margin-left: 335px;
+	padding-top: 5px;
+}
+
+#separator{
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+#home{
+	float: left;
+	width: 45px;
+	font-size: 18px;
+	background-color: #25536B;
+}
+
+#network{
+	float: left;
+	width: 63px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#advertisements{
+	float: left;
+	width: 113px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#chat{
+	float: left;
+	width: 35px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#notifications{
+	float: left;
+	width: 95px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#profile{
+	float: left;
+	width: 48px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#settings{
+	float: left;
+	width: 50px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#logout{
+	float: left;
+	width: 62px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+.leftside{
+	float:left;
+	width: 300px;
+	height: 605px;
+	background-color: rgba(255,255,255,0.6);
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius:10px;]
+}
+
+.center{
+	float: left;
+	width: 1035px;
+	height: 605px;
+	background-color: white;
+	opacity: 0.6;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	bottom: 400px;
+}
+
+#articlePost{
+	float: left;
+	height: 30px;
+	width: 400px;
+	background-color:rgba(255,255,255,0.6);
+	position: relative;
+	top: 10px;
+	left: 300px;
+	padding: 10px;
+	text-align: left;
+	border-radius: 10px;
+}
+
+#postLink{
+	position:relative;
+	top: 5px;
+	left: 30px;
+	color: black;
+	text-decoration: underline;
+}
+
+#postLink:hover{
+	background-color: rgba(255,255,255,0.6);	
+}
+
+#postLink:visited{
+	color:black;
+}
+
+#timeline{
+	float:left;
+	width: 610px;
+	background-color: rgba(255,255,255,0.6);
+	position: relative;
+	top: 80px;
+	left: 195px;
+	border-radius: 10px;
+	padding: 10px;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+/*#post{
+	position: relative;
+	top:5px;
+	left:5px;
+	background-color: green;
+	width: 1025px;
+	height: 100px;
+}
+
+p{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}*/
+
+h3{
+	color: black;
+}
+
+#photoProf{
+	margin: 10px;
+	margin-left: 75px;
+	width: 150px;
+	height: 180px;
+	background-color: yellow;
+}
+
+#infoProf{
+	width: 290px;
+	height: 120px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#name{
+	color: black;
+	border: 1px solid rgb(220,220,220);
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+}
+
+#surname, #age, #address, #telephone{
+	color: black;
+	border: 1px solid rgb(220,220,220);
+	border-left-style: none;
+	border-right-style: none;
+}
+	
+#email{
+	color: black;
+	border: 1px solid rgb(220,220,220);
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+}
+#linkProf, #linkNet{
+	padding: 5px;
+	border-radius: 10px;
+	color:white;
+	margin: 5px;
+	margin-left: 95px;
+	background-color: white;
+	height: 20px;
+	width: 100px;
+	text-align: center;
+}
+
+#myProf:hover, #myNet:hover{
+	text-decoration: underline;
+	background-color: white;
+	color: black;
+}
+
+#myProf:visited, #myNet:visited{
+	text-decoration: none;
+	color:black;
+}
+
+#friends{
+	background-color: white;
+	height: 200px;
+	width: 300px;
+	overflow: auto;
+	resize: none;
+}
+
+#ftitle{
+	
+	height: 5px;
+	width: 300px;
+	text-align:center;
+}
+
+#friendlist{
+	
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+	list-style-type: none;
+	padding-left: 10px;
+	border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: rgb(220,220,220);
+}
+
+li::after{
+	content: "     •";
+    color: green;
+}
+
+#popup-post{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color: rgba(169,169,169,0.6);
+	width:100%;
+	height:100%;
+}
+
+#popup-wrapper{
+	width:600px;
+	margin: 70px auto;
+}
+
+#popup-container{
+	height:350px;
+	background-color:white;
+	padding:10px;
+	border-radius:10px;
+	color:black;
+}
+
+#popupClose, #popupClose:visited{
+	text-align:right;
+	color:red;
+	text-decoration:underline;
+}
+
+#popupClose:hover{
+	background-color: white;
+}
+
+#postTitle{
+	text-align:center;
+	color:blue;
+	border: 1px solid blue;
+	border-top-style:none;
+	border-left-style:none;
+	border-right-style:none;
+}
+
+form{
+	margin-left:50px;
+}
+
+#postText{
+	margin-bottom: 10px;
+	resize: none;
+	border-radius: 10px;
+}
+
+#postImage{
+	margin-bottom: 10px;
+}
+
+#postVideo{
+	margin-bottom: 10px;
+}
+
+#submitPost{
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+/*article*/
+#article{
+	width: 510px;
+	background-color: white;
+	border-radius: 10px;
+	margin: 20px;
+	margin-left:50px;
+	float:center;
+}
+			
+#user{
+	float:left;
+	position:relative;
+	top:0px;
+	height: 50px;
+	width: 510px;
+	background-color: white;
+	border-radius: 10px 10px 0px 0px;
+}
+			
+#articleContent{
+	float:left;
+	width: 510px;				
+	background-color: white;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	margin: 0px;
+}
+			
+#likes{
+	float:left;
+	height: 30px;
+	width: 100px;
+	background-color: white;
+	color: black;
+	border-radius: 0px 0px 0px 10px;
+	margin: 0;
+}
+			
+#like{
+	float:left;
+	margin-left: 20px;
+	position:relative;
+	top: -10px;
+	left:20px;
+	background-color:white;
+}
+			
+#pic{
+	float:left;
+	position:relative;
+	top: 5px;
+	left: 10px;
+}
+			
+#likeno{
+	height: 30px;
+	width: 410px;
+	float:left;
+	position:relative;
+	top: 0px;
+	left: 0px;
+	color: black;
+	background-color:white;
+	border-radius: 0px 0px 10px 0px;			
+}
+			
+#number{
+	float:left;
+	position:relative;
+	top: -10px;
+	left:10px;
+	color:blue;background-color:white;
+}
+			
+#username{
+	float:left;
+	position:relative;
+	top: 0px;
+	left:10px;
+	color:blue;
+	background-color:white;
+	font-weight: bold;
+}
+						
+img{
+	margin:0;
+}
+			
+#text{
+	width: 500px;
+	background-color:white;
+	max-width:500px;
+	text-align: left;
+	padding: 5px;
+}
+			
+video{
+	margin: 0;
+}
+			
+#likebutton{
+	margin-left: 10px;
+}
+
+#likebutton:link{
+	text-decoration: none;
+	color:black;		
+}
+			
+#likebutton:hover{
+	text-decoration: none;
+	color:blue;
+} 
+
+#likebutton:visited{
+	text-decoration: none;
+	color:black;
+}
+
+#space{
+	float:left;
+	margin: 5px;
+}
+
+#showUserLikes{
+	float:left;
+	position: fixed;
+	color: white;
+	top:50%;
+	left:60%;
+	width:200px;
+	background-color:#696969;
+	padding: 3px;
+	border-radius:5px;
+	border: 1px solid white;
+	/*display: none*/;
+}
+
+#userslike{
+	float:left;
+	position:relative;
+	top: 0px;
+	left:70px;
+	width:200px;
+	background-color:green;
+	text-align: left;
+}

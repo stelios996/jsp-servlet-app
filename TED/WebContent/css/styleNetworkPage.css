@@ -1,0 +1,252 @@
+body{
+	background-image: url(./images/WelcomePage.jpg);
+	background-repeat: no-repeat;
+	background-size: 1366px 662px;
+	background-attachment: fixed;
+	margin: 0;
+	overflow:auto;
+}
+
+.header3{
+	background-color: #3F81A1;
+	height: 40px;
+	color: white;
+}
+
+#logo{
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 50px;
+	/*padding-top: 5px;*/
+	float: left;
+	width: 200px;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: #25536B;
+	text-decoration: underline;
+}
+
+a:visited{
+	color: white;
+}
+
+.navbar{
+	margin-left: 335px;
+	padding-top: 5px;
+}
+
+#separator{
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+#home{
+	float: left;
+	width: 45px;
+	font-size: 18px;
+}
+
+#network{
+	float: left;
+	width: 63px;
+	font-size: 18px;
+	margin-left: 0;
+	background-color: #25536B;
+}
+
+#advertisements{
+	float: left;
+	width: 113px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#chat{
+	float: left;
+	width: 35px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#notifications{
+	float: left;
+	width: 95px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#profile{
+	float: left;
+	width: 48px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#settings{
+	float: left;
+	width: 50px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#logout{
+	float: left;
+	width: 62px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#searchBarWrap{
+	display: inline-flex;
+	margin-left: 420px;
+	margin-top: 30px;
+}
+			
+#searchBarInp{
+	width: 400px;
+	height: 25px;
+	font-size: 15px;
+	border: 1px solid #DCDCDC;
+	border-radius: 5px 0px 0px 5px;
+	padding: 3px;
+	outline: 0;
+}
+			
+#searchBarInp:hover{
+	border-color: #A9A9A9;
+}
+			
+#searchBarButton{
+	font-size: 15px;
+	border: 1px solid #DCDCDC;
+	border-radius: 0px 5px 5px 0px;
+	border-left: 0;
+	background-color: #DCDCDC;
+	outline: 0;
+	cursor: pointer;
+	padding: 5px;
+	color: white;
+}
+			
+#searchBarButton:hover{
+	border-color: #A9A9A9;
+	background-color: #A9A9A9;
+}
+
+#searchBarButton:active{
+	background-color: #808080;
+}
+
+#sBBlink:link, #sBBlink:visited{
+	text-decoration: none;
+	color: white;
+}
+
+#sBBlink:hover{
+	background-color: #A9A9A9;
+}
+
+#sBBlink:active{
+	background-color: #808080;
+}
+
+p{
+	cursor:pointer;
+	margin:0px;
+	padding: 5px;
+	color:black;
+}
+		
+span{
+	display:none;
+}
+		
+#suggestions{
+	width:408px;
+	margin-left: 420px;
+	background-color: white;
+	color:black;
+}
+
+.searchWarning{
+	color: red;
+	font-size: 15px;
+	margin-left: 420px;
+}
+
+h1{
+	color: white;
+	text-decoration: underline;
+	text-align: center;
+}
+
+#friendsContainer{
+	margin-left: 190px;
+	/*margin-right: 100px;*/
+	color:black;
+	display: inline-grid;
+  	grid-template-columns: auto auto auto auto auto;
+  	padding: 10px;
+}
+
+#profDiv{
+	margin: 10px;
+	height: 200px;
+	width: 170px;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 5px;
+	padding: 5px;
+}
+		
+#photo{
+	height: 80px;
+	width: 70px;
+	background-color: yellow;
+	border-radius: 5px;
+	margin-left:50px;
+}
+			
+#rest{
+	height:	60px;
+	width: 170px;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 5px;
+	text-align: center;
+}
+			
+#link{
+	height:	20px;
+	width: 80px;
+	/*background-color: rgba(255,255,255,0.6);*/
+	border-radius: 5px;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+
+#plink:link, #clink:link{
+	color: blue;
+	text-decoration: underline;
+}
+
+#plink:hover, #clink:hover{
+	background-color: rgba(255,255,255,0.6);
+}
+
+#plink:visited, #clink:visited{
+	color: blue;
+}
+
+#chatlink{
+	height:	20px;
+	width: 80px;
+	border-radius: 5px;
+	margin-left: 65px;
+}
+

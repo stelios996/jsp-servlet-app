@@ -1,0 +1,158 @@
+body{
+	background-image: url(./images/WelcomePage.jpg);
+	background-repeat: no-repeat;
+	background-size: 1366px 662px;
+	color: white;
+	margin: 0;
+}
+
+.header3{
+	background-color: #3F81A1;
+	height: 40px;
+	color: white;
+}
+
+#logo{
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 50px;
+	/*padding-top: 5px;*/
+	float: left;
+	width: 200px;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: #25536B;
+	text-decoration: underline;
+}
+
+a:visited{
+	color: white;
+}
+
+.navbar{
+	margin-left: 335px;
+	padding-top: 5px;
+}
+
+#separator{
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+#home{
+	float: left;
+	width: 45px;
+	font-size: 18px;
+}
+
+#network{
+	float: left;
+	width: 63px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#advertisements{
+	float: left;
+	width: 113px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#chat{
+	float: left;
+	width: 35px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#notifications{
+	float: left;
+	width: 95px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#profile{
+	float: left;
+	width: 48px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+#settings{
+	float: left;
+	width: 50px;
+	font-size: 18px;
+	margin-left: 0;
+	background-color: #25536B;	
+}
+
+#logout{
+	float: left;
+	width: 62px;
+	font-size: 18px;
+	margin-left: 0;
+}
+
+.content{
+	padding-top: 250px;
+	font-size: 20px;
+}
+
+legend{
+	text-align: center;
+}
+
+form{
+	padding-left:500px;
+}
+
+#changeSettings{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#email{
+	margin-left: 65px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+#password{
+	margin-left: 43px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+#confirmPass{
+	margin-left: 13px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+#submitButton{
+	padding-top: 0px;
+	margin-left: 173px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+.changeSetWarning{
+	color: red;
+	font-size: 15px;
+	margin-left: 173px;
+}

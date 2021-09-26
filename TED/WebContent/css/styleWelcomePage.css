@@ -1,0 +1,140 @@
+
+/*	
+#header{
+		color: white;
+		font-weight: bold;
+		font-size: 25px;
+		padding-left: 100px;
+		padding-right: 100px;
+		background-color: #3F81A1;
+}
+
+form{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left:500px;
+}
+
+label{	
+	text-align: left;
+	width: 100px;
+}
+
+input{
+	margin-top: 8px;
+}
+
+fieldset{
+		color: white;
+}
+
+legend{
+	text-align: center;
+}
+
+#content{
+	padding-top: 220px;
+	font-size: 25px;
+}
+
+#email{
+	margin-left: 40px;
+	padding: 5px;
+}
+
+#password{
+	margin-left: 12px;
+	padding: 5px;
+}
+
+#submitButton{
+	margin-left: 121px;
+}
+
+#signup{
+	margin-left:700px;
+}
+
+a{
+	color: white;
+}
+*/
+body{
+	background-image: url(./images/WelcomePage.jpg);
+	background-repeat: no-repeat;
+	background-size: 1366px 662px;
+	color: white;
+	margin: 0;
+}
+
+.header1{
+	background-color: #3F81A1;
+	height: 70px;
+	padding-bottom: 10px;
+}
+
+#logo{
+	font-weight: bold;
+	font-size: 50px;
+	padding-left: 80px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: left;
+}
+
+#signup{
+	font-size: 20px;
+	float:left;
+	margin-left: 850px;
+}
+
+a{
+	color: white;
+}
+
+.content{
+	padding-top: 250px;
+	font-size: 20px;
+}
+
+legend{
+	text-align: center;
+}
+
+#login{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+form{
+	padding-left:500px;
+}
+
+#email{
+	margin-left: 35px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+#password{
+	margin-left: 13px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+#submitButton{
+	padding-top: 0px;
+	margin-left: 100px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+.loginWarning{
+	color: red;
+	font-size: 15px;
+	margin-left: 100px;
+}

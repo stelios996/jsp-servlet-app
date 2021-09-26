@@ -1,0 +1,110 @@
+body{
+	background-image: url(./images/WelcomePage.jpg);
+	background-repeat: no-repeat;
+	background-size: 1366px 662px;
+	background-attachment: fixed;
+	margin: 0;
+	overflow:auto;
+	color: black;
+}
+		
+a{
+	font-size:20px;
+}
+		
+a:hover, a:visited, a:link{
+	color: white;
+}
+			
+#title{
+	margin-left: 450px;
+	color: white;
+	font-size: 35px;
+	width: 450px;
+}
+			
+#link{ 
+	width: 100px;
+	position: absolute;
+	top: 10px;
+	left: 1220px;
+}
+			
+form{
+	margin: 10px;
+}
+			
+.content{
+	float: left;
+	margin-top: 10px;
+	width: 540px;
+	height: 1100px;
+	background-color: rgba(255,255,255,0.6);
+	margin-left: 400px;
+	border-radius: 10px;
+}
+			
+#name{
+	margin-left: 28px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+			
+#surname{
+	margin-left: 10px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+			
+#age{
+	margin-left: 40px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+			
+#genderoptions{
+	margin-left: 42px;
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+			
+#address{
+	margin-left: 15px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+			
+#telephone{
+	margin-left: 1px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+			
+#email{
+	margin-left: 28px;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+			
+textarea{
+	margin-bottom: 5px;
+	resize: none;
+	border-radius: 10px;
+}
+			
+#submitButton{
+	font-size: 15px;
+	border-radius: 10px;
+}
